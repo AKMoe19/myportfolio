@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+
+        <!-- FAVICON -->
+        <link rel="icon" href="./img/profile.jpg" type="image/png" >
+
+        <!-- font awesome icons for cdnjs link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- style for css link -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Navigation bar -->
+        <nav>
+            <div class="logo"><span>AK.M</span>0£</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#trip">Trip</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+         <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, I'm <span>Ak Moe</span><br>Web Developer</h1>
+                <p>I create immersive digital experiences with cutting-edge web technologies.
+                    My passion is turning ideas into interactive realities that captivate users.
+                </p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+
+            <div class="profile-container">
+                <div class="profile-border"></div>
+                <div class="tech-icons">
+                    <i class="tech-icon" style="top: 0; left: 50%; transform: translateX(-50%);">🌠</i>
+                    <i class="tech-icon" style="top: 50%; right: 0; transform: translateY(-50%);">💻</i>
+                    <i class="tech-icon" style="bottom: 0; left: 50%; transform: translateX(-50%);">🔌</i>
+                    <i class="tech-icon" style="top: 50%; left: 0; transform: translateY(-50%);">🎨</i>
+                </div>
+                <img src="./img/profile.jpg" alt="Porfile Picture" width="300px" class="profile-pic">
+            </div>
+         </section>
+
+         <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionnate full-stack developer with 5+ years of experience creating dynamic web applications.
+                        My journey in tech began when I built my first website at 15, and I've been hooked ever since.
+                    </p>
+                    <p>I specialize in modern JavaScript frameworks and have a keen eye for design.
+                        My approach combines technical expertise with creative problem-solving to deliver
+                        exceptional user experience.
+                    </p>
+                    <p>When I'm not coding, you can find me contributing to open-source porjects, attending
+                        tech meetups, or exploring the latest in VR development.
+                    </p>
+                </div>
+
+                <div class="skills">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- 1st Card -->
+                <div class="project-card">
+                    <img src="./img/01.png" alt="Project 1" height="200px" class="porject-img">
+                    <div class="project-info">
+                        <h3 class="project-title">My Dashboard</h3>
+                        <p class="project-description">A modern admin dashboard with real-time analytics and 
+                            customizable widgets built with React and D3.js.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 2nd Card -->
+                <div class="project-card">
+                    <img src="./img/02.jfif" alt="Project 2" height="200px" class="porject-img">
+                    <div class="project-info">
+                        <h3 class="project-title">VR Portfolio</h3>
+                        <p class="project-description">An immersive virtual reality Portfolio experience built with Three.js and WebXR.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">WebXR</span>
+                            <span class="tech-tag">GSAP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3rd Card -->
+                 <div class="project-card">
+                    <img src="./img/03.jpg" alt="Project 3" height="200px" class="porject-img">
+                    <div class="project-info">
+                        <h3 class="project-title">Code Collab</h3>
+                        <p class="project-description">A real-time collaborative code editor with video chat functionality 
+                            using WebSockets and WebRTC.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">WebRTC/span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <form action="" class="contact-form">
+
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" id="subject" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" class="form-textarea" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+
+            </form>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 AK.M0E. All rights reserved.</p>
+        </footer>
+    
+    
+    <!-- JavaScript file link -->
+     <script src="script1.js"></script>
+        
+    </body>
+</html>
